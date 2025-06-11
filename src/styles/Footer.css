@@ -1,0 +1,52 @@
+.footer-container {
+  background-color: #3b82f6;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.footer-top {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footer-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.footer-tagline {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footer-contact p {
+  margin: 0.2rem 0;
+  font-size: 0.95rem;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-top: 1rem;
+  font-size: 1.6rem;
+}
+
+.footer-icons a {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.footer-icons a:hover {
+  color: #facc15; /* bright yellow on hover */
+}
+
+.footer-bottom {
+  margin-top: 2rem;
+  font-size: 0.85rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  padding-top: 1rem;
+}
