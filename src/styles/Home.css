@@ -317,7 +317,7 @@
   background-color: #ffffff;
   text-align: center;
   border-bottom: 1px solid #e2e8f0;
-  height: 100px;
+  /* height: 100px; */
 }
 
 .home-partners-title {
@@ -335,6 +335,7 @@
   align-items: center;
 }
 
+
 .partner-logo {
   width: 120px;
   height: auto;
@@ -348,8 +349,18 @@
   filter: none;
 }
 
+@media (max-width: 640px) {
+  .home-partners-logos {
+    gap: 1rem;
+  }
 
-/* AOS Scroll Animations */
+  .partner-logo {
+    width: 80px; 
+  }
+}
+
+
+
 [data-aos] {
   opacity: 0;
   transition-property: transform, opacity;
@@ -362,7 +373,6 @@
   transform: none;
 }
 
-/* Keyframes */
 @keyframes fadeInUp {
   from {
     opacity: 0;
